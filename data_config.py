@@ -108,5 +108,4 @@ def visualize_adjusted_price(df, fname):
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig('./imgs/' + fname, dpi=700)
-    print("test")
 
